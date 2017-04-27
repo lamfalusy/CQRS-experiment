@@ -21,6 +21,7 @@ public class PersistenceConfiguration {
 	public MappingManager mappingManager() {
 		Builder b = Cluster.builder().addContactPoint(node);
 		b.withPort(port);
+		b.withCredentials("cassandra", "cassandra");
 		return new MappingManager(b.build().connect());
 	}
 	

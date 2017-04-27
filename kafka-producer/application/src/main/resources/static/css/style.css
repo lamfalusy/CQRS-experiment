@@ -1,0 +1,30 @@
+html, body{
+    height: 100%;
+}
+
+.row {
+	height: 50%;
+	width: 100%;
+}
+
+.column {
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.c1 {
+	background-color: red;
+}
+
+.c2 {
+	background-color: green;
+}
+
+.c3 {
+	background-color: blue;
+}
+
+.c4 {
+	background-color: yellow;
+}
